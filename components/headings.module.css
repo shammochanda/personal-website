@@ -5,6 +5,13 @@
   animation-name: slidein;
 }
 
+@media (max-width: 800px) {
+  .headings {
+    /* width: 90%; */
+    animation: none;
+  }
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;

@@ -11,7 +11,7 @@
 @media (max-width: 800px) {
   .details {
     width: 90%;
-    animation-duration: 0.9s;
+    animation: none;
   }
 }
 
