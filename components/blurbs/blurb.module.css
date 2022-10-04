@@ -1,0 +1,15 @@
+.main {
+  font: Helvetica;
+  color: #64ffe3;
+  position: absolute;
+  top: 30%;
+}
+
+.linkedin a {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.linkedin a:hover {
+  color: white
+}

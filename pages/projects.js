@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import MainBlurb from "../components/blurbs/mainblurb";
+import ProjectBlurb from "../components/blurbs/projectblurb";
 
 const Home = (props) => {
   return (
@@ -9,7 +9,7 @@ const Home = (props) => {
         <title>Shammo Chanda</title>
         <meta name="description" content="Shammo's Portfolio" />
       </Head>
-      <MainBlurb />
+      <ProjectBlurb />
     </Fragment>
   );
 };
