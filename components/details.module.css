@@ -8,6 +8,13 @@
   animation-name: slidein;
 }
 
+@media (max-width: 800px) {
+  .details {
+    width: 90%;
+    animation-duration: 0.9s;
+  }
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
