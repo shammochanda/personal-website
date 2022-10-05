@@ -1,14 +1,11 @@
 import { Fragment } from "react";
-import Head from "next/head";
+import MetaHead from "../components/headmeta";
 import ProjectBlurb from "../components/blurbs/projectblurb";
 
 const Home = (props) => {
   return (
     <Fragment>
-      <Head>
-        <title>Shammo Chanda</title>
-        <meta name="description" content="Shammo's Portfolio" />
-      </Head>
+      <MetaHead metacontent="Shammo's Projects">Projects | Shammo</MetaHead>
       <ProjectBlurb />
     </Fragment>
   );

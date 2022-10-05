@@ -2,7 +2,8 @@
   font-size: 1.5rem;
   animation-duration: 1.8s;
   color: #64ffe3bb;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10%;
   width: 65%;
   text-align: justify;
   animation-name: slidein;
@@ -11,6 +12,7 @@
 @media (max-width: 800px) {
   .details {
     width: 90%;
+    text-align: left;
     animation: none;
   }
 }
