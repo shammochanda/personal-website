@@ -7,9 +7,9 @@ const MainBlurb = (props) => {
   return (
     <div className={classes.main}>
       <Headings>Hi.</Headings>
-      <Headings> I'm Shammo Chanda.</Headings>
+      <Headings> I&apos;m Shammo Chanda.</Headings>
       <Details>
-        I'm a frontend developer specializing in React.
+        I&apos;m a frontend developer specializing in React.
       </Details>
     </div>
   );
