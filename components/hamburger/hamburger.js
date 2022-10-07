@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { Fragment } from "react";
 import classes from './hamburger.module.css'
 
 const Hamburger = (props) => {

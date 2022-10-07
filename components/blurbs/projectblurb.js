@@ -9,21 +9,16 @@ const ProjectBlurb = (props) => {
       <Headings>My Projects</Headings>
       <ProjectIcon
         siteLink="https://www.google.com"
-        githubLink="https://www.github.com"
+        githubLink="https://github.com/shammochanda/personal-website"
+        same={true}
       >
-        Some Project
+        This Page
       </ProjectIcon>
       <ProjectIcon
-        siteLink="https://www.google.com"
-        githubLink="https://www.github.com"
+        siteLink="https://github.com/shammochanda/gym-journal-web-app"
+        githubLink="https://github.com/shammochanda/gym-journal-web-app"
       >
-        Some Project
-      </ProjectIcon>
-      <ProjectIcon
-        siteLink="https://www.google.com"
-        githubLink="https://www.github.com"
-      >
-        Some Project
+        Gym Journal - Work In Progress
       </ProjectIcon>
     </div>
   );

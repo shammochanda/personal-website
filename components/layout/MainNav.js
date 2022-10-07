@@ -11,7 +11,7 @@ const MainNav = (props) => {
     setShowList(!showList);
   };
 
-  let change = useMediaQuery({ query: "(min-width: 550px)" });
+  let change = useMediaQuery({ query: "(min-width: 551px)" });
 
   useEffect(() => {
     if (change) {
@@ -69,6 +69,11 @@ const MainNav = (props) => {
           <li className={classes.nav}>
             <Link href="/contact">
               <a onClick={hamburgerHandler}>Contact</a>
+            </Link>
+          </li>
+          <li className={`${classes.nav} ${classes.hidden}`}>
+            <Link href="/resume.pdf">
+              <a onClick={hamburgerHandler} target="__blank">Resume</a>
             </Link>
           </li>
         </ul>
