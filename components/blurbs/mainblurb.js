@@ -9,7 +9,7 @@ const MainBlurb = (props) => {
       <Headings>Hi.</Headings>
       <Headings> I&apos;m Shammo Chanda.</Headings>
       <Details>
-        I&apos;m a frontend developer specializing in React.
+        I&apos;m a versatile software engineer.
       </Details>
     </div>
   );
