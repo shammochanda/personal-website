@@ -15,7 +15,7 @@ const ProjectBlurb = (props) => {
         This Page
       </ProjectIcon>
       <ProjectIcon
-        siteLink="https://github.com/shammochanda/gym-journal-web-app"
+        siteLink="https://gym-journal-web-app.vercel.app/"
         githubLink="https://github.com/shammochanda/gym-journal-web-app"
       >
         Gym Journal - Work In Progress
