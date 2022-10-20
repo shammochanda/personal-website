@@ -15,6 +15,12 @@ const ProjectBlurb = (props) => {
         This Page
       </ProjectIcon>
       <ProjectIcon
+        siteLink="https://color-swatches.vercel.app/"
+        githubLink="https://github.com/shammochanda/color-swatches"
+      >
+        Color Swatches
+      </ProjectIcon>
+      <ProjectIcon
         siteLink="https://gym-journal-web-app.vercel.app/"
         githubLink="https://github.com/shammochanda/gym-journal-web-app"
       >
