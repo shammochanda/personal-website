@@ -1,4 +1,4 @@
-import Details from "../details";
+import Details from "../details"; 
 import Headings from "../headings";
 import classes from "./blurb.module.css";
 import ProjectIcon from "../projects/projecticon";
