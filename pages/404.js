@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment } from "react"; 
 import MetaHead from "../components/headmeta";
 import NotFoundBlurb from "../components/blurbs/notfoundblurb";
 
